@@ -1,0 +1,68 @@
+# compiled output
+/dist
+/node_modules
+/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+.development.env 
+.dockerIgnore
+
+DB_NAME=pm4
+DE_HOTS=localhost
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=damiurki
+CLOUDINARY_CLOUD_NAME='dxd7ba6gs'
+CLOUDINARY_API_KEY='762493273221269'
+CLOUDINARY_API_SECRET='aKvFwZYZj4cmjYu07u0TawhPbSU'
+JWT_SECRET="SuperSecreta"
+
+# temp directory
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
