@@ -12,6 +12,8 @@ import { CategoriesModule } from './categories/categories.module';
 import { OrdersModule } from './orders/orders.module';
 import { FileUploadModule } from './file_upload/file_upload.module';
 import { JwtModule } from '@nestjs/jwt';
+import { Product } from './products/products.entity';
+import { Category } from './categories/categories.entity';
 
 @Module({
   imports: [
@@ -34,6 +36,7 @@ import { JwtModule } from '@nestjs/jwt';
       secret: process.env.JWT_SECRET,
       signOptions: { expiresIn: '60m' },
     }),
+    TypeOrmModule.forFeature([Category, Product]),
   ],
 
   controllers: [AppController],
