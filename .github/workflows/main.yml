@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ecomerce-pM4:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ecomerce-pm4:latest
